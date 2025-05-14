@@ -160,6 +160,7 @@ li {
 }
 .champsrecherche {
     border: 0.1px solid var(--main-bg-color);
+    cursor: auto;
 }
 .boutonrecherche {
     border-radius: 0 10px 10px 0;
@@ -167,11 +168,17 @@ li {
     color: white;
     width: 132px;
     border: none;
+    cursor: pointer;
 }
 .imgsearch {
     width: 14px;
     height: 18px;
     margin: 15px 15px 15px 15px;
+}
+.rechercheform a:hover {
+    text-decoration: none;
+    border-top: none;
+    list-style-type: none;
 }
 .loc {
     background-color: var(--main-bg-color);
