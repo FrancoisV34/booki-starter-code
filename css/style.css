@@ -244,6 +244,11 @@ h2 {
     list-style-type: none;
 }
 
+.filtres a:hover {
+    text-decoration: none;
+    border-top: none;
+    list-style-type: none;
+}
 .loc {
     background-color: var(--main-bg-color);
     border-radius: 10px 0px 0px 10px;
