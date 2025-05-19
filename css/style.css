@@ -83,8 +83,13 @@ a:hover {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.hebergement-title {
+    width: 100%;
+}
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
@@ -142,7 +147,7 @@ a:hover {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-}
+
 
 .populaires-cards .card-subtitle {
     margin: 0;
