@@ -61,12 +61,18 @@ nav ul {
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    padding-bottom: 15px;
+    gap: 4px;
+    width: 250px;
+    margin: 0px 15px 15px 15px;
 }
 
 .card img {
     object-fit: cover;
+    margin-right: 5px;
+    padding: 5px 5px 0px 5px;
+    max-width: 240px;
 }
 
 .card-title {
@@ -90,14 +96,30 @@ nav ul {
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 30px;
+    padding: 0px 15px 30px 0px;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
 }
 
+.card-rating {
+    margin-left: 15px;
+}
+
+.card-content {
+    margin-left: 15px;
+}
+
+.hebergements .plus {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
 .hebergement-title {
     width: 100%;
+    margin: 15px 15px 15px 30px; 
 }
 /****** Hebergements ***********/
 .hebergements {
