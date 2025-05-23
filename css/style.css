@@ -116,6 +116,7 @@ nav ul {
     margin-left: 30px;
     font-weight: 700;
     font-size: 18px;
+    display: block;
 }
 .hebergement-title {
     width: 100%;
@@ -124,6 +125,11 @@ nav ul {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-and-populaires .hebergements {
+    display: flex;
+    gap: 30px;
 }
 
 /****** Populaires ***********/
