@@ -491,10 +491,50 @@ footer li {
     header {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin-bottom: 30px;
     }
 
     header img {
         margin: 30px;
+    }
+
+    .main-container {
+        padding: 0 30px;
+    }
+
+    header nav {
+        width: 100%;
+        display: block;
+
+    }
+
+    header nav ul {
+        width: 100%;
+        margin-left: -40px;
+        max-width: 100%;
+
+    }
+
+    li {
+        width: 100%;
+        padding: 0 30px 15px 30px;
+    }
+
+    .act {
+        margin-left: 35px;
+    }
+
+    nav ul a {
+        width: 50%;
+        border-bottom: 2px solid #F2F2F2;
+
+
+    }
+
+    nav ul a:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
     }
 
     /* ... */
