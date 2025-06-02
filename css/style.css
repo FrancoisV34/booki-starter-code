@@ -605,8 +605,15 @@ footer li {
     .filtres .filtre {
         font-size: 14px;
         display: flex;
-        gap: 10px;
         width: 100%;
+    }
+
+    .infolog {
+        padding: 105px 0 35px 0;
+    }
+
+    .logoeco {
+        margin-bottom: 0;
     }
 
     /* ... */
