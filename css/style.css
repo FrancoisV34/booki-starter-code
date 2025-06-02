@@ -75,7 +75,6 @@ nav ul li {
 
 .card img {
     object-fit: cover;
-    padding: 5px 5px 0px 5px;
 }
 
 .card-title {
@@ -106,12 +105,20 @@ nav ul li {
     justify-content: left;
 }
 
+.card .imgcontainer {
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
 .card-rating {
     margin-left: 15px;
 }
 
 .card-content {
-    margin-left: 15px;
+    margin: -5px 0 0 15px;
 }
 
 .hebergements .plus {
@@ -187,13 +194,12 @@ nav ul li {
 }
 
 .hebergement-cards {
-    width: 30%;
-    padding-left: 15px;
+    width: 29%;
     box-sizing: border-box;
 }
 
 .hebergement-cards img {
-    width: 96%;
+    width: 100%;
     height: 136px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
