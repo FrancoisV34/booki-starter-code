@@ -437,6 +437,20 @@ footer li {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .filtres {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .filtres h2 {
+        width: 100%;
+    }
+
+    .infolog {
+        padding: 35px 0;
+        margin: 0;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -578,6 +592,21 @@ footer li {
 
     .champsrecherche {
         width: 70%;
+    }
+
+    .filtres h2 {
+        width: 100%;
+    }
+
+    .filtres .buttonfiltre {
+        width: 45%;
+    }
+
+    .filtres .filtre {
+        font-size: 14px;
+        display: flex;
+        gap: 10px;
+        width: 100%;
     }
 
     /* ... */
