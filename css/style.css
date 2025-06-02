@@ -623,7 +623,7 @@ footer li {
     .hebergements-and-populaires .populaires {
         border-radius: 0;
         margin-top: 0;
-        padding: 0 20px;
+        padding: 0 20px 30px 20px;
     }
 
     .populaires-cards {
@@ -637,6 +637,34 @@ footer li {
     }
 
     .populaires-cards a {
+        width: 100%;
+    }
+
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+        flex-direction: column;
+        padding: 0;
+        gap: 15px;
+    }
+
+    .hebergements-and-populaires h2 {
+        margin: 0;
+    }
+
+    .hebergement-title {
+        margin-bottom: 0;
+    }
+
+    .hebergement-cards {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .hebergement-cards a {
+        width: 100%;
+    }
+
+    .hebergement-cards .card {
         width: 100%;
     }
 
