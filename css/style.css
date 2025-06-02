@@ -687,5 +687,30 @@ footer li {
         height: 70%;
     }
 
+    footer {
+        flex-direction: column;
+    }
+
+    footer li {
+        padding: 0;
+        width: 100%;
+    }
+
+    footer .a-propos {
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    footer .nos-hebergements {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    footer .assistance {
+        width: 100%;
+        padding: 20px 10px 30px 10px;
+    }
+
+
     /* ... */
 }
