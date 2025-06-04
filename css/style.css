@@ -116,6 +116,7 @@ nav ul li {
 
 .card .card-rating {
     margin-left: 15px;
+    padding-bottom: 15px;
 }
 
 .card-content {
@@ -213,7 +214,7 @@ section .populaires-cards {
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-    margin: 10px 5px 5px 15px;
+    margin: 10px 5px 10px 15px;
     gap: 24px;
 }
 
@@ -456,6 +457,11 @@ h2 {
     margin: 30px 0px 30px 0px;
 }
 
+.activities a {
+    width: 22%;
+    height: 439px;
+}
+
 .activities h2 {
     min-width: 100%;
     font-weight: 700;
@@ -464,9 +470,9 @@ h2 {
 
 .activities .activity-card {
     display: flex;
-    width: 297px;
+    width: 100%;
     flex-direction: column;
-    height: 439px;
+    height: 86%;
     border-radius: 20px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 10%));
 }
