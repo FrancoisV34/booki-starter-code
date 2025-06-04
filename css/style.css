@@ -114,7 +114,7 @@ nav ul li {
     box-sizing: border-box;
 }
 
-.card-rating {
+.card .card-rating {
     margin-left: 15px;
 }
 
@@ -207,6 +207,14 @@ section .populaires-cards {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+}
+
+.bestcontent {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px 5px 15px;
+    gap: 24px;
 }
 
 .bestimg img {
