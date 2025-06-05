@@ -80,6 +80,11 @@ nav ul li {
 
 .card-title {
     font-size: 16px;
+    margin: 9px 0 5px 0
+}
+
+.card-subtitle {
+    margin: 0 0 8px 0;
 }
 
 .euro {
@@ -112,6 +117,7 @@ nav ul li {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    height: 60%;
 }
 
 .card .card-rating {
@@ -189,7 +195,7 @@ section .populaires-cards {
 }
 
 .best-cards .card2 {
-    height: 100%;
+    height: 146px;
     background-color: white;
     border-radius: 20px;
 }
@@ -290,11 +296,16 @@ section .populaires-cards {
 .hebergement-cards {
     width: 29%;
     box-sizing: border-box;
+    height: 207px;
+}
+
+.hebergement-cards .card {
+    height: 100%;
 }
 
 .hebergement-cards img {
     width: 100%;
-    height: 136px;
+    height: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -541,6 +552,18 @@ footer li {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+
+/* Exceptional changes to be clean (for "hebergement-cards" less/equal than 1197px) */
+@media (max-width: 1197px) {
+    .hebergement-cards .card-title {
+        font-size: 14px;
+    }
+
+    .hebergement-cards .card-subtitle {
+        font-size: 14px;
+    }
+}
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .filtres {
