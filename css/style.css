@@ -744,13 +744,15 @@ footer li {
     }
 
     .filtres .buttonfiltre {
-        width: 45%;
+        width: 48%;
+        height: 100%;
     }
 
     .filtres .filtre {
         font-size: 14px;
         display: flex;
         width: 100%;
+        height: 100%;
     }
 
     .infolog {
@@ -763,6 +765,22 @@ footer li {
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
+    }
+
+    .best {
+        border-radius: unset;
+        margin-top: 0;
+        gap: 15px;
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .best-cards {
+        width: 100%;
+    }
+
+    .best-cards .card2 {
+        width: 100%;
     }
 
     .hebergements-and-populaires .populaires {
@@ -789,7 +807,7 @@ footer li {
     .hebergements-and-populaires .hebergements {
         background-color: white;
         flex-direction: column;
-        padding: 0;
+        padding: 20px 0 0 0;
         gap: 15px;
     }
 
