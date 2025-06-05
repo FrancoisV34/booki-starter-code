@@ -210,6 +210,18 @@ section .populaires-cards {
     box-sizing: border-box;
 }
 
+.best-txt {
+    gap: 5px;
+}
+
+.best-txt h3 {
+    margin: 0;
+}
+
+.best-txt p {
+    margin: 0;
+}
+
 .bestcontent {
     justify-content: space-between;
     display: flex;
@@ -553,6 +565,32 @@ footer li {
         width: 100%;
     }
 
+    .best {
+        width: 100%;
+        margin-top: 50px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .best-cards {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        height: 100%;
+    }
+
+    .best-cards .card2 {
+        height: 146px;
+        display: flex;
+
+    }
+
+    .bestcontent {
+        gap: unset;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -598,7 +636,7 @@ footer li {
     }
 
     .activities a {
-        width: 22%;
+        width: 21%;
         height: 270px;
     }
 
