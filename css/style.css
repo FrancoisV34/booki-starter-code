@@ -51,7 +51,7 @@ a {
 }
 
 nav ul a:hover {
-    border-top: 1px solid #0065FC;
+    border-top: 2px solid #0065FC;
 }
 
 nav ul {
@@ -692,7 +692,20 @@ footer li {
     }
 
     .main-container {
-        padding: 0 20px;
+        padding: 0;
+    }
+
+    main h1,
+    .town-nature {
+        padding-left: 20px;
+    }
+
+    form {
+        padding-left: 20px;
+    }
+
+    .filtres {
+        padding-left: 20px;
     }
 
     header nav {
@@ -779,7 +792,8 @@ footer li {
     }
 
     .infolog {
-        padding: 105px 0 35px 0;
+        padding: 105px 0 35px 20px;
+
     }
 
     .logoeco {
@@ -884,20 +898,22 @@ footer li {
     }
 
     footer .a-propos {
-        width: 100%;
         padding: 30px 10px;
     }
 
     footer .nos-hebergements {
-        width: 100%;
         padding: 20px 10px;
     }
 
     footer .assistance {
-        width: 100%;
         padding: 20px 10px 30px 10px;
     }
 
+    footer .a-propos,
+    .nos-hebergements,
+    .assistance {
+        width: 95%;
+    }
 
     /* ... */
 }
