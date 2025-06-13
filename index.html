@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -20,19 +20,19 @@
             <img src="./images/logo/Booki.png" alt="logobooki">
             <nav>
                 <ul>
-                    <a href="#hebergements-and-populaires">
-                        <li>Hébergement</li>
-                    </a>
-                    <a href="activities">
-                        <li class="act">Activités</li>
-                    </a>
+
+                    <li><a href="#hebergements-and-populaires">Hébergement</a></li>
+
+
+                    <li class="act"><a href="activities">Activités</a></li>
+
                 </ul>
             </nav>
         </header>
         <main>
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p class="town-nature">En plein centre ville ou en pleine nature</p>
-            <form method="get" action="">
+            <form method="get">
                 <div class="rechercheform">
                     <a href="#hebergements-and-populaires">
                         <div class="loc">
@@ -41,21 +41,21 @@
                     </a>
                     <input type="search" placeholder="Marseille, France" class="champsrecherche">
                     <button type="submit" class="boutonrecherche">
-                        <p class="rechercher">Rechercher</p><img src="./images/logo/Button.png" type="submit"
-                            alt="loupe" class="loupe">
+                        <span class="rechercher">Rechercher</span><img src="./images/logo/Button.png" alt="loupe"
+                            class="loupe">
                     </button>
                 </div>
             </form>
             <div class="filtres">
                 <h2>Filtres</h2>
-                <a href="#" class="buttonfiltre"><button class="filtre"><img src="./images/logo/eco.png"
-                            class="logoeco">Économique</button></a>
-                <a href="#" class="buttonfiltre"><button class="filtre"><img src="./images/logo/famille.png"
-                            class="logoeco">Familial</button></a>
-                <a href="#" class="buttonfiltre"><button class="filtre"><img src="./images/logo/romantique.png"
-                            class="logoeco">Romantique</button></a>
-                <a href="#" class="buttonfiltre"><button class="filtre"><img src="./images/logo/pepites.png"
-                            class="logoeco">Nos pépites</button></a>
+                <button class="filtre"><img src="./images/logo/eco.png" alt="logoeco"
+                        class="logoeco">Économique</button>
+                <button class="filtre"><img src="./images/logo/famille.png" alt="logofamille"
+                        class="logoeco">Familial</button>
+                <button class="filtre"><img src="./images/logo/romantique.png" alt="logoramantique"
+                        class="logoeco">Romantique</button>
+                <button class="filtre"><img src="./images/logo/pepites.png" alt="logopepite" class="logoeco">Nos
+                    pépites</button>
 
             </div>
             <div class="infolog">
@@ -283,25 +283,33 @@
                     <a href="#">
                         <article class="activity-card">
                             <img src="./images/activites/reno-laithienne.jpg" alt="Vieux-Port">
-                            <span>Vieux-Port</span>
+                            <div class="activity-subtitle">
+                                <h3>Vieux-Port</h3>
+                            </div>
                         </article>
                     </a>
                     <a href="#">
                         <article class="activity-card">
                             <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
-                            <span>Fort de Pomègues</span>
+                            <div class="activity-subtitle">
+                                <h3>Fort de Pomègues</h3>
+                            </div>
                         </article>
                     </a>
                     <a href="#">
                         <article class="activity-card">
                             <img src="./images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques">
-                            <span>Parc national des Calanques</span>
+                            <div class="activity-subtitle">
+                                <h3>Parc national des Calanques</h3>
+                            </div>
                         </article>
                     </a>
                     <a href="#">
                         <article class="activity-card">
                             <img src="./images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde">
-                            <span>Notre-Dame-de-la-Garde</span>
+                            <div class="activity-subtitle">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                            </div>
                         </article>
                     </a>
                 </section>
@@ -311,37 +319,37 @@
             <div class="a-propos">
                 <p>À propos</p>
                 <ul>
-                    <a>
-                        <li>Fonctionnement du site</li>
-                    </a>
-                    <a>
-                        <li>Conditions générales</li>
-                    </a>
-                    <a>
-                        <li>Données et confidentialité</li>
-                    </a>
+
+                    <li><a>Fonctionnement du site</a></li>
+
+
+                    <li><a>Conditions générales</a></li>
+
+
+                    <li><a>Données et confidentialité</a></li>
+
                 </ul>
             </div>
             <div class="nos-hebergements">
                 <p>Nos hébergements</p>
                 <ul>
-                    <a>
-                        <li>Charte qualité</li>
-                    </a>
-                    <a>
-                        <li>Proposer votre hôtel</li>
-                    </a>
+
+                    <li><a>Charte qualité</a></li>
+
+
+                    <li><a>Proposer votre hôtel</a></li>
+
                 </ul>
             </div>
             <div class="assistance">
                 <p>Assistance</p>
                 <ul>
-                    <a>
-                        <li>Centre d'aide</li>
-                    </a>
-                    <a>
-                        <li>Nous contacter</li>
-                    </a>
+
+                    <li><a>Centre d'aide</a></li>
+
+
+                    <li><a>Nous contacter</a></li>
+
                 </ul>
             </div>
         </footer>
